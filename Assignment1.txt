@@ -1,0 +1,252 @@
+                                                                            Assignment 1
+Write Algorithm & Flowchart for the following programs
+
+1)Check the given number is EVEN or ODD?
+Step 1: Start.
+Step 2: Take a input from user
+Step 3: If n%2=0 Then Print Number is Even
+        else
+Step 4: Number is odd
+ Step 5: Display output
+Step 6: Stop
+
+2) Write a Java Program to find the Factorial of given number?
+
+Step 1: Start
+Step 2: Declare Variable n, fact, i 
+Step 3: Read number from User 
+Step 4: Initialize Variable fact=1 and i=1 
+Step 5: Repeat Until i<=number 
+  5.1   fact=fact*i 
+  5.2   i=i+1 
+
+Step 6: Print fact 
+Step 7: Stop
+
+3) Find the Factorial of a number using Recursion?
+step 1: start.
+step 2: give input from user n (give no from user).
+step 3: give function call
+        factorial(n).(goto the step 6)
+step 4: print output;
+step 5: stop;
+step 6: give a condition  if(n==1)
+                                return 1.
+                          else
+                               again call function until( n==1)
+                               factorial(n).
+4)Swap two numbers without using third variable approach?
+STEP 1:start
+STEP 2: take a input from user x, y.
+STEP 3: print the given input.
+STEP 4: adding given numbers and store it into any one variable  
+               x = x + y.
+STEP 5:  y= x - y.
+STEP 6: x =x - y.
+STEP 7: PRINT x, y.
+STEP 8: END.
+
+5) How to check the given number is Positive or Negative in Java?
+
+STEP 1: Start.
+STEP 2: Take a input from user
+STEP 3:.if(num>0)
+                        Print(“Number is Positive”)
+
+STEP 4:else 
+                       Print(“Number is Negative”)
+STEP 5: Display output
+STEP 6: Stop
+
+6) Write a Java Program to find whether given number is Leap year or NOT?
+STEP 1: start.
+STEP 2: declare a one variable i.e.X;
+STEP 3: take a input from user and store it into declared variable.
+STEP 4:by using nested if else condition;
+
+        if (X%400==0||X%2==0)
+            {
+             print given input year is leap year
+            }
+              else
+           {
+            print given year is not a leap year
+           }
+STEP 5: stop.
+7)Write a Java Program to Print 1 To 10 Without Using Loop ?
+
+STEP 1: start;
+STEP 2: declare one variable and initialize it with 1;
+STEP 3:calling the recursive function...function name will be XYZ passing 
+       the argument as given no.
+STEP 4: logic should be in function we use recursion   
+ 	XYZ(A)
+      {
+       if(x==11)
+        return 1;
+       else
+        print the given no.
+        XYZ(A++)
+      }
+STEP 5:stop.
+8)Write a Java Program to print the digits of a Given Number?
+
+STEP 1: start;
+STEP 2: give input from user as number n , another variable num.
+STEP 3:while(n!=0)
+       {
+        num=n%10;
+         n=n/10;
+         print the num; 
+       }
+step 4: stop.
+9)Write a Java Program to print all the Factors of the Given number?
+
+STEP 1: start the program.
+STEP 2: take a input from user as num.
+STEP 3: appalying a loop.
+        for(i=1;i<=num;i++)
+          {
+           if(num%i==0)
+            print i is the factorial of num.
+           else
+            print  i is not a factor of num. 
+          }
+STEP 4:stop 
+
+10)Write a Java Program to find sum of the digits of a given number?
+
+STEP 1: start;
+STEP 2: give input from user as number n , another variable num.
+STEP 3: take one variable name as a sum initialize as a 0;
+STEP 4:while(n!=0)
+       {
+        num=n%10;
+         sum=sum+num;
+         n=n/10;
+       }
+STEP 5: print the sum .
+STEP 6:stop.
+11)Write a Java algorithm to find the smallest of 3 numbers (a,b,c)?
+
+STEP 1: start the programm.
+STEP 2: declare the three variables as a,b,c;
+STEP 3: takes input from user.
+STEP 4: applying nested loop in that condition,
+step 5:  if(a<b)
+         { 
+          if(b<c)
+           number a is smallest number.
+          else 
+           no a is not a smallest number
+         }
+         if(b<c)
+         { 
+          if(c<a)
+           number b is smallest number.
+          else 
+           no b is not a smallest number
+         }
+
+         if(c<a)
+         { 
+          if(a<b)
+           number c is smallest number.
+          else 
+           no c is not a smallest number
+         }
+STEP 6: stop.
+13) Write a java program to Reverse a given number?
+
+STEP 1: start the given program.
+STEP 2: enter the four digit num from user.
+STEP 3: declare the variable num1,num2,num3,num4.
+STEP 4: num1=num%10;
+        num2=num1%10;
+        num3=num2%10;
+        num4=num3%10;
+STEP 5:print the given number in reverse order
+       print num1,num2,num3,num4
+step 6: stop.
+
+15)  Write a java program to LCM of TWO given number?
+
+STEP 1: start the programm
+STEP 2: take two number num1,num2 from user, declare the one variable as i.
+
+STEP 3:for(i=1;num1%i==0 || num2%i==0;i++);
+STEP 4: print the i,LCM of given two number is i;
+STEP 5: stop
+
+17)Check whether the Given Number is a Palindrome or NOT?
+
+STEP 1: start the given program.
+STEP 2: enter the num from user.
+STEP 3: declare the variable num,reminder,reverse=0;
+STEP 4: declare variable n=num assign given number in declare variable;
+STEP 4: while(n!=0)
+        {
+         reminder=num%10;
+         reverse=reverse*10+reminder;
+         num=num/10;         
+        }
+STEP 5:if(reverse==num)
+        print given number as palindeome.
+       else
+        print given number is not palindrome
+step 6: stop.
+
+18)Write a Java Program to print all the Prime Factors of the Given Number?
+
+STEP 1:start
+STEP 2:take number as input from user.
+STEP 3:appalying loop 
+
+      for(i=2;i<num;i++)
+        {
+           while(num%i==0)
+         {
+           print the i;
+          }
+         if(num>2)
+           print the num.
+        }
+STEp 4: stop the program.
+
+
+19)To print the following series EVEN number Series 2 4 6 8 10 12 14 16 .....?
+
+STEP 1: start the program
+STEP 2: gives a input from user as num.
+STEP 3:initilize the variablen i=1.
+STEP 4:appalying a loop
+step 5:
+      for(i;i<=num;i++)
+        {
+         if(n%2==0)
+         print the given num is  even.
+         print i. 
+       }
+STEP 6:stop
+       
+20)To print the following series ODD number Series 1 3 5 7 9 11 13 ....?
+
+STEP 1: start the program
+STEP 2: gives input from user as num
+STEP 3:initilize the variablen i=1.
+STEP 4:appalying a loop
+step 5:
+      for(i;i<=num;i++)
+        {
+         if(n%2!=0)
+         print the given number is odd 
+         print the i. 
+       }
+STEP 6:stop
+
+
+
+
+
+
+
